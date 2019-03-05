@@ -22,5 +22,14 @@ RSpec.describe 'TasksApi', type: :request do
       json = JSON.parse(response.body)
       expect(json['data']['title']).to eq 'loads a task やで'
     end
+
+    pending 'create' do
+    end
+
+    pending 'update' do
+    end
+
+    penfding 'destroy' do
+    end
   end
 end
