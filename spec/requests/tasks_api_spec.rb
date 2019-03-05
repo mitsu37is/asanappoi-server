@@ -23,13 +23,13 @@ RSpec.describe 'TasksApi', type: :request do
       expect(json['data']['title']).to eq 'loads a task やで'
     end
 
-    pending 'create' do
+    it 'create' do
     end
 
-    pending 'update' do
+    it 'update' do
     end
 
-    penfding 'destroy' do
+    it 'destroy' do
     end
   end
 end
